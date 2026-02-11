@@ -1,0 +1,2 @@
+add_executable(TestMeasurements test_measurements.cpp)
+target_link_libraries(TestMeasurements PUBLIC Measurements Catch2::Catch2WithMain)
